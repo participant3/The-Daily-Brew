@@ -1,0 +1,29 @@
+@use 'variables' as v;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: v.$font-body;
+    background-color: v.$color-background;
+    color: v.$color-primary;
+}
+
+h1, h2, h3 {
+    font-family: v.$font-heading;
+}
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+button {
+    font: inherit;
+    cursor: pointer;
+}
